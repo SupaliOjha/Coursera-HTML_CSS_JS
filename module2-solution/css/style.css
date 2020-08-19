@@ -4,10 +4,17 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+  background-image: linear-gradient(rgb(180, 190, 27),rgb(245, 178, 189),rgb(224, 196, 33));
+}
+
 h1 {
-  color: #660606;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px;
+  color: #330505;
   font-size: 175%;
   text-align: center;
+  font-weight: bold;
 }
 
 section {
@@ -15,12 +22,14 @@ section {
   background-color: bisque;
   height: 250px;
   overflow: auto;
+  position: relative;
 }
 
 h2 {
   float: right;
   border:1px solid black;
   color: lavender;
+  background-color: crimson;
   font-size: 125%;
   padding: 5px 20px 5px 20px;
   margin-top: 0;
@@ -30,19 +39,7 @@ h2 {
 ul {
   clear: right;
   width: 90%;
-}
-
-#chicken {
-  background-color: crimson;
-}
-
-
-#beef {
-  background-color: crimson;
-}
-
-#sushi {
-  background-color: crimson;
+  overflow: auto;
 }
 
 
