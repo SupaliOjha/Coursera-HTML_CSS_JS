@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(178, 221, 136);
+  }
+h1{
+  font-family: monospace;
+  color: darkgreen;
+}
+p{
+  font-family: monospace;
+  color: red;
+  font-style: italic;
+  font-size: larger;
+  font-weight: bold;
+}
